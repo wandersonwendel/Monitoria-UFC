@@ -1,10 +1,10 @@
 # Função para somar dois números
-def somar_dois_numeros(...., ....):
-    resultado = .... + ....
+def somar_dois_numeros(num1, num2):
+    resultado = num1 + num2
     return resultado
 
 # Exemplo de uso da função
-.... = 5
-.... = 3
-resultado_soma = ....(...., ....)
-print(f"A soma de {....} e {....} é {....}")
+num1 = 5
+num2 = 3
+resultado_soma = somar_dois_numeros( num1, num2)
+print(f"A soma de {num1} e {num2} é {resultado_soma}")
